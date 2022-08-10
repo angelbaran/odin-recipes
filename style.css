@@ -1,12 +1,15 @@
-.homepage-title {
-    color: rgb(74, 53, 4);
+.title, .recipes, .description, .photo, div {
     text-align: center;
+}
+.title {
+    color: rgb(74, 53, 4);
     font-size: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.recipes {
-    text-align: center;
+ul, .recipes {
     list-style-position: inside;
+}
+.recipes, .styled {
     font-size: 20px;
 }
 #page {
@@ -14,33 +17,18 @@
     text-align: left;
     font-family: Arial, Helvetica, sans-serif
 }
-div {
-    text-align: center;
-    margin-top: 30px;
+.spacious {
+    margin: 30px
 }
-ul {
-    list-style-position: inside;
-}
-.description {
-    text-align: center;
+.ingredients, .instructions {
+    margin-top: 50px;
 }
 .ingredients {
     text-align: left;
-    margin-top: 50px;
-}
-.instructions {
-    margin-top: 50px;
 }
 .filling {
     margin-top: 30px;
 }
-.photo {
-    text-align: center;
-}
-.spacious {
-    margin: 30px
-}
 .styled {
     padding: 5px 10px;
-    font-size: 20px;
 }
