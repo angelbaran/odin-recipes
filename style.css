@@ -20,7 +20,7 @@ ul, .recipes {
 .spacious {
     margin: 30px
 }
-.ingredients, .instructions {
+.ingredients, .instructions, .description {
     margin-top: 50px;
 }
 .ingredients {
